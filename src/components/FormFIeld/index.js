@@ -1,18 +1,26 @@
-import React from "react";
+import React from 'react';
 
-function FormField({label, type, name, value, onChange}){
-    return (
-        <div>
-          <label>
-            {label}: 
-            <input type={type} 
-            name={name}
-            value={value}
-            onChange={onChange}
-            />
-          </label>
-        </div>
-    )
+function FormField({
+  label, type, name, value, onChange,
+}) {
+  const fielId = `${name}`;
+  return (
+    <div>
+      <label
+        htmlFor={fielId}
+      >
+        {label}
+        :
+        <input
+          id={fielId}
+          type={type}
+          name={name}
+          value={value}
+          onChange={onChange}
+        />
+      </label>
+    </div>
+  );
 }
- 
+
 export default FormField;
