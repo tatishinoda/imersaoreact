@@ -79,8 +79,7 @@ function FormField({
       <Label
         htmlFor={fieldId}
       >
-        {label}
-        :
+
         <Input
           as={tag}
           id={fieldId}
@@ -89,6 +88,10 @@ function FormField({
           value={value}
           onChange={onChange}
         />
+        <Label.Text>
+          {label}
+          :
+        </Label.Text>
       </Label>
     </FormFieldWrapper>
   );
