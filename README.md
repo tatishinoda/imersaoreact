@@ -196,7 +196,7 @@ Este projeto foi desenvolvido durante a **Imersão React** da Alura, um programa
 Contribuições são bem-vindas! Sinta-se livre para:
 
 1. Fazer um fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+2. Criar uma branch para sua feature (`git checkout -b AmazingFeature`)
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abrir um Pull Request
