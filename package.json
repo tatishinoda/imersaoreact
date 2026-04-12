@@ -18,7 +18,7 @@
       "server": "json-server --watch db.json --port 8080 ",
       "dev": "concurrently \"cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start\" \"npm run server\"",
       "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-      "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+      "build": "cross-env CI=false NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject"
    },
