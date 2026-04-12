@@ -4,6 +4,5 @@
    "devCommand": "npm start",
    "env": {
       "NODE_OPTIONS": "--openssl-legacy-provider"
-   },
-   "nodeVersion": "18.x"
+   }
 }
