@@ -20,11 +20,11 @@ AluraFlix é uma aplicação web moderna que permite aos usuários explorar, cat
 
 ### Frontend
 
-- **React** 16.13.1 - Biblioteca JavaScript para construção de interfaces
-- **React DOM** 16.13.1 - Renderização de componentes React
-- **React Router DOM** 5.2.0 - Roteamento de página única (SPA)
-- **Styled Components** 5.1.1 - CSS-in-JS para estilização de componentes
-- **React Slick** 0.27.1 - Carrossel/slider responsivo
+- **React** 18.2.0 - Biblioteca JavaScript para construção de interfaces
+- **React DOM** 18.2.0 - Renderização de componentes React
+- **React Router DOM** 6.16.0 - Roteamento de página única (SPA)
+- **Styled Components** 6.1.0 - CSS-in-JS para estilização de componentes
+- **React Slick** 0.29.0 - Carrossel/slider responsivo
 
 ### Backend
 
@@ -33,9 +33,13 @@ AluraFlix é uma aplicação web moderna que permite aos usuários explorar, cat
 ### Desenvolvimento
 
 - **React Scripts** 5.0.1 - Scripts de build e desenvolvimento
-- **ESLint** 10.2.0 - Linting e análise de código
-- **Concurrently** 5.3.0 - Execução de múltiplos processos
+- **Concurrently** 8.2.2 - Execução de múltiplos processos
 - **Cross-env** 10.1.0 - Variáveis de ambiente multiplataforma
+
+### Testes
+
+- **React Testing Library** 13.4.0 - Testes de componentes
+- **Jest DOM** 5.16.5 - Matchers customizados para Jest
 
 ## 📋 Pré-requisitos
 
